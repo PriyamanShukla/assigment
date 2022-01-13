@@ -1,0 +1,83 @@
+.detail{
+    color: orange;
+}
+
+.template{
+  
+    color: black;
+    position: relative;
+    box-shadow: 5px 10px 11px #2221211c;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+background-color: #ffcc998f;
+
+}
+
+.title-text{
+    font-size: 1.45rem;
+    height: 100px;
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+}
+
+
+.title-des{
+    height: 240px;
+}
+
+.intro{
+    background-color: #ffcc998f ;
+    color: orange;
+    width: fit-content;
+}
+
+.sav{
+    color: white;
+    background-color: orange;
+    float: right;
+    
+}
+.offer{
+    display: inline;
+    
+}
+
+.trend{
+    color: white;
+    background-color: rgb(7, 175, 158);
+    float: left;
+    font-size: smaller;
+   
+    
+}
+.val{
+    color: white;
+    background-color: orange;
+    float: left;
+}
+
+.price{
+    
+    display: flex;
+   
+}
+
+
+
+.old-price{
+    color: rgb(85, 82, 82);
+    
+}
+.per-cls{
+    color: blue;
+    font-size: small;
+}

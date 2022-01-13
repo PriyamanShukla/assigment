@@ -1,0 +1,50 @@
+
+.container{
+   
+    color: black;
+    position: relative;
+    box-shadow: 5px 10px 11px #2221211c;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+   grid-template-columns: 1fr, 2fr, 3fr;
+   align-items: center;
+   width: 70vw;
+   height: fit-content;
+}
+
+.col{
+    padding: 1.6rem;
+    font-weight: bold;
+    
+   }
+
+
+
+.col:hover{
+    background: orangered;
+    color: white;
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        
+        padding: 10px;
+        width: 20em;
+      }
+      
+      .col {
+        width: -moz-fit-content;
+        width: fit-content;
+        border: 1px solid transparent;
+        box-shadow: 5px 10px 11px #2221211c;
+        padding: 5px;
+        margin-bottom: 1em;
+        border-radius: 0.25rem
+      }
+      
+      
+    }
+
+
+
